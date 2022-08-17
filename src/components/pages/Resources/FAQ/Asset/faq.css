@@ -1,0 +1,8 @@
+.bg-image{
+    background-image: url(./FAQ.png);
+    height: 60vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}

@@ -1,0 +1,85 @@
+.bg-image-home{
+    background-image: url(./bn2.jpg);
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.react-rotating-text-cursor {
+    animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
+  }
+   
+  @keyframes blinking-cursor {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+.hero-wrap {
+    max-width: 840px;
+    float: left;
+    text-align: left;
+    color: whitesmoke;
+
+}
+.hero-wrap .hero-headline {
+    font-size: 70px;
+    letter-spacing: -1px;
+    line-height: 82px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+
+.endingsection{
+    background-image: url(./bgimage.png);
+    height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.bottom-title{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    
+}
+.hero{
+    font-size: 3rem;
+    letter-spacing: -1px;
+    line-height: 82px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.hero-wrap {
+    max-width: 840px;
+    float: right;
+    text-align: right;
+    margin-top: 15%;
+    margin-right:5%;
+}
+.hero-wrap .hero-headline {
+    font-size: 3rem;
+    letter-spacing: -1px;
+    line-height: 82px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+@media screen and (max-width: 690px){
+.hero-wrap {
+    text-align: center;
+    font-size: 30px;
+}
+.gb-inside-container{
+    text-align: center;
+    font-size: 30px;
+}
+}

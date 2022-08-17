@@ -1,0 +1,26 @@
+
+.waveb{
+    width: 100%;
+    min-height: 450px;
+position: relative;
+background:linear-gradient(10deg,#3fb561,#47b868);
+}
+.custom-shape-divider-bottom-1656097152 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1656097152 svg {
+    position: relative;
+    display: block;
+    width: calc(221% + 1.3px);
+    height: 223px;
+}
+
+.custom-shape-divider-bottom-1656097152 .shape-fill {
+    fill: #FFFFFF;
+}
